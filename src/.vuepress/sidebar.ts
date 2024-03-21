@@ -58,6 +58,12 @@ export default sidebar({
         prefix: "c1/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第二章 线性表",
+        icon: "laptop-code",
+        prefix: "c2/",
+        children: "structure",
+        collapsible: true,
       },
       {
         text: "错题集",
