@@ -51,7 +51,13 @@ export default sidebar({
         prefix: "c1/",
         children: "structure",
         collapsible: true,
-      }],
+      },
+      {
+        text: "错题集",
+        icon: "book",
+        link: "ctz",
+      },
+    ],
       collapsible: true,
     },
     {
