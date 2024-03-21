@@ -6,7 +6,14 @@ export default sidebar({
       text: "高等数学",
       icon: "book",
       prefix: "gaoshu/",
-      children: "structure",
+      children: [{
+        text: "第一章",
+        icon: "laptop-code",
+        prefix: "c1/",
+        children: "structure",
+        collapsible: true,
+      },
+    ],
       collapsible: true,
     },
     {
