@@ -70,6 +70,11 @@ export default sidebar({
         icon: "book",
         link: "ctz",
       },
+      {
+        text: "算法题",
+        icon: "book",
+        link: "sft",
+      },
     ],
       collapsible: true,
     },
