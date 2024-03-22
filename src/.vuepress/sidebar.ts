@@ -41,10 +41,13 @@ export default sidebar({
   ],
   "/english/": [
     {
-      text: "目录",
-      icon: "laptop-code",
-      prefix: "english/",
-      children:"structure",
+      
+        text: "背单词",
+        icon: "laptop-code",
+        prefix: "danci/",
+        children: "structure",
+        collapsible: true,
+      
     }
   ],
   "/408/": [
