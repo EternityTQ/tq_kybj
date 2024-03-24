@@ -8,7 +8,7 @@ bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
 heroFullScreen: true
 bgImageStyle:
   background-attachment: fixed
-heroText: zbh的考研复习笔记
+heroText: tq的考研复习笔记
 tagline: 希望人没事
 actions:
   - text: 考研数学

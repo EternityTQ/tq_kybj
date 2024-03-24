@@ -46,6 +46,7 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     catalog: true,
+    
     // 你应该自行生成自己的评论服务
 
     components: {
@@ -56,6 +57,7 @@ export default hopeTheme({
     mdEnhance: {
       align: true,
       attrs: true,
+      echarts: true,
       codetabs: true,
       component: true,
       demo: true,
