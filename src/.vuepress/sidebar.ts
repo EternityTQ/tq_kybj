@@ -48,7 +48,15 @@ export default sidebar({
         children: "structure",
         collapsible: true,
       
-    },
+    },{
+      
+      text: "每日核心词",
+      icon: "book",
+      prefix: "daily_words/",
+      children: "structure",
+      collapsible: true,
+    
+  },
   ],
   "/408/": [
     {
