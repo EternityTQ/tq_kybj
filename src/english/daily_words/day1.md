@@ -124,23 +124,183 @@ n. 议题；议事日程；<u>目的</u>(熟词僻义)
 
 an implicit agenda 一个潜在的目的
 
+### **agitate**
+v 鼓动，煽动，搅动，使不安
+
+"ag"+"it"+"ate"，使其活动，就是煽动
+
+偏贬义。
+
+### **agony**
+n. 极大痛苦，创伤
+
+>爱割你，就是极大痛苦
+
+## -acu-、-acr-
+尖锐，锐利
+
+=A(长的很尖锐)
+### **acute**
+adj. 尖的；敏锐的；严重的；强烈的
+
+派生词：acutely
+
+### **massacre**
+v. & n. 屠杀，残杀
+
+mass(大量) + acr + e，"大量的人被尖锐的捅死"
+
+## -add-
+### **add**
+v. 加，增加；补充说
+
+add A to B
+
+add to 
+
+add up to 共计达
+
+sb. add that 某人补充说
+
+### **addition**
+n. 加，增加
+
+in addition 另外，此外
+
+in addition to 除...之外
+
+## -aer-、-air-
+### **aerial**
+adj. 空中的，航空的 
+
+### **airline**
+n. 航线，航空公司
+
+### **airport**
+n. 机场
+
+## -al-、-all-
+所有
+### **alarm**
+n. 惊吓；警报
+
+v. 惊吓；向...报警
+
+arm 武器
+al + arm -> 所有人都拿起了武器 -> 警报响了
+
+### **alert**
+adj. 机警的，警觉的
+
+v. 使..警觉
+
+n. 警报，警戒
+
+听到alarm(警报)，于是就alert(警觉)
+
+### **ally**
+n. 结盟
+v. 与...结盟
+
+all + y(yes) -> 所有人都说yes! 就是结盟了！
+
+### **coalition**
+n. 联盟体，联盟；联合政府
+
+co- 共同，全部，一起
+
+co + al + it + ion
+
+所有的它都在一起
+
+## -alter-
+
+### **alter**
+v. 改变，更改，改动
+
+=change
+
+### **alternate**
+v. 使交替，使轮流
+
+adj. 交替的，轮流的
+
+### **alternative**
+adj. 备选的
+
+n. 可供选择的事物 (=chance)
+
+派生词： alternatively adv. 两者择一的，或者
+ 
+alternatives to concentional paid media
+
+传统付费媒介的替代品
+
+## -anci-、-ance-
+古代，以前
+
+### **ancient**
+adj. 古代的
+
+### **ancestor**
+n. 祖宗，祖先
+
+派生词：ancestry n. (统称)祖宗、祖先
+
+## -ann-、-enn-
+
+### **annual**
+adj. 每年的
+
+n. 年刊
+
+### **millennial**
+n. 千禧一代
+
+adj. 一千年的
+
+mill- 千
+
+mill + enn + ial
+
+## -auct-、-aug-
+大
+### **auction**
+n. & v. 拍卖，竞卖
+
+拍卖会就是一个价格不断变\[大\]的过程
+
+派生词：auctioneer 拍卖人，拍卖商
+
+### **augment**
+v. 增大，增加
 
 
+## -aud-、-audi-
+听见
+
+### **audio**
+n. 音频
+
+adj. 声音的
 
 
+### **audience**
+n. 听众
 
+### **audit**
+v. 旁听；审计
 
+n. 审计，审查
 
+aud + it 听它，就是旁听；或者听别人报账，就是审计
 
+派生词：auditing 审计学
 
+auditor n. 审计员；旁听生
 
-
-
-
-
-
-
-
+### **aural**
+adj. 听力的
 
 
 
