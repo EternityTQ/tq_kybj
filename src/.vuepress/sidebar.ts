@@ -42,13 +42,13 @@ export default sidebar({
   "/english/": [
     {
       
-        text: "背单词",
+        text: "单词方法论",
         icon: "laptop-code",
-        prefix: "danci/",
+        prefix: "Methodology/",
         children: "structure",
         collapsible: true,
       
-    }
+    },
   ],
   "/408/": [
     {
