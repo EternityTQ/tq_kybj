@@ -75,6 +75,12 @@ export default sidebar({
         prefix: "c2/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第三章 栈、队列与数组",
+        icon: "laptop-code",
+        prefix: "c3/",
+        children: "structure",
+        collapsible: true,
       },
       {
         text: "错题集",
@@ -85,6 +91,11 @@ export default sidebar({
         text: "算法题",
         icon: "book",
         link: "sft",
+      },
+      {
+        text: "习题本",
+        icon: "book",
+        link: "xtb",
       },
     ],
       collapsible: true,
