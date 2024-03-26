@@ -11,9 +11,11 @@
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
+    "@types/postcss-preset-env": "^8.0.0",
     "@vuepress/bundler-vite": "2.0.0-rc.8",
     "echarts": "^5.5.0",
     "katex": "^0.16.9",
+    "postcss-preset-env": "^9.5.2",
     "vue": "^3.4.16",
     "vuepress": "2.0.0-rc.8",
     "vuepress-theme-hope": "2.0.0-rc.31"
