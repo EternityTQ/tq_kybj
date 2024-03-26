@@ -128,6 +128,74 @@ v. 唤醒，叫醒
 
 ## 非成组词(A)
 
+### **abdomen**
+n. 腹部
+
+派：abdominal adj. 腹部的 n. 腹肌
+
+### **arbitrary**
+adj. 任意的；任性的
+
+arbiter 仲裁人，仲裁人很随意啊，听他的
+
+"阿比特立！" 阿比天天很特立独行 -> 随意的
+
+### **advisable**
+adj. 明智的
+
+能被建议的 -> 明智的
+
+> 听人劝，吃饱饭
+
+
+### **algorithm**
+n. 算法
+
+develop an algorithm to...
+
+开发一种算法来...
+
+
+### **alien**
+adj. 外国的
+
+n. 外国人，外侨
+
+"艾琳" -> 外国佬的名字
+
+### **ambition**
+n. 雄心
+
+### **ample**
+adj. 丰裕的；宽敞的
+
+"俺泼" -> 花钱如泼水 -> 富裕的
+
+派： amplify v. 放大，扩大
+
+### **anxious**
+adj. 焦虑的；渴望的；担心的
+
+### **apparent**
+adj. 表面的；出现的；明显的
+
+appar(appear) + ent
+
+派：appearently adv. 显然
+
+### **awkward**
+adj. 尴尬的；笨拙的
+
+"拗口的" -> 演员在台上台词拗口 -> 尴尬
+
+
+
+
+
+
+
+
+
 
 
 
