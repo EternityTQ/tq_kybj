@@ -132,11 +132,75 @@ n. 伤亡人员，事故
 ### occasion
 n. 时机，机会
 
+### incident
+n. 事件
 
+### incidence
+n. 发生，发生率
 
+### coincidence
+n. 巧合
 
+### cascade
+n. 倾泻，小瀑布
 
+### decay
+v. & n. 衰减；腐败
 
+## -chron-
+时间
+### chronic
+adj. 长期的；慢性的
+
+adj. chronical 慢性的
+
+### chronicle
+n. 记事报；记事
+
+v. 详实记载
+
+## -circ-
+
+### circle
+n. 圆圈
+
+### circuit 
+n. 电路，回路；巡回
+
+### circulation
+n. 循环；流通；发行量
+
+### cycle
+n. 圈，循环
+
+### recycle
+v. & n. 再循环
+
+## -civi-
+文明
+
+### civil
+adj. 文明的；公民的
+
+### civilization
+n. 文明，文化
+
+## -claim-
+### claim
+v. & n. 主张，要求，声称；取得，获得
+
+### acclaim
+v. & n. 欢呼，喝彩
+
+### exclaim 
+v. 呼喊，尖叫
+
+ex + claim -> 喊了出来 -> 被动的喊
+
+### proclaim
+v. 宣布
+
+pro(前) + claim -> 走到人群前喊
 
 
 

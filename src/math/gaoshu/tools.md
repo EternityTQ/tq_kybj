@@ -44,6 +44,7 @@ $$(1+x)^{\frac{1}{x}}-e\backsim -\frac{e}{2}x$$
 
 $$e^x-1-x\backsim \frac{1}{2}x^2$$
 
+$$1-(\cos x)^a\backsim \frac{1}{2}ax^2$$
 
 ## 1.4 泰勒展开式
 $$\sin x=x-\frac{x^3}{3!}+o(x^3)$$
