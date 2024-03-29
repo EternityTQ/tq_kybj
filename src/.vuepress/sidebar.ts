@@ -7,6 +7,12 @@ export default sidebar({
       icon: "book",
       prefix: "gaoshu/",
       children: [{
+        text: "公式合集",
+        icon: "screwdriver-wrench",
+        link: "tools",
+        collapsible: true,
+
+      },{
         text: "第一章",
         icon: "laptop-code",
         prefix: "c1/",
