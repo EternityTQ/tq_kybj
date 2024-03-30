@@ -148,7 +148,7 @@ n. 大学
 ### context
 n. 上下文，语境；<u>环境，背景</u>
 
-### contient
+### continent
 n. 大陆
 
 ### conceal
