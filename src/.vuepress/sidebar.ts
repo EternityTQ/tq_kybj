@@ -99,6 +99,12 @@ export default sidebar({
         prefix: "c4/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第五章 树与二叉树",
+        icon: "laptop-code",
+        prefix: "c5/",
+        children: "structure",
+        collapsible: true,
       },
       {
         text: "错题集",

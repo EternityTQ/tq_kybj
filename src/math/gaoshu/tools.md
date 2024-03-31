@@ -2,6 +2,11 @@
 title: 公式合集
 icon: screwdriver-wrench
 ---
+## 1.0 基础公式
+### 1.0.1 常用不等式
+
+$$\sqrt{\frac{a^2+b^2}{2}}\geq \frac{a+b}{2} \geq \sqrt{ab} \geq \frac{2}{\frac 1a+\frac 1b}$$
+
 ## 1.3 常见等价无穷小量
 注意：均为$x\to 0$
 
