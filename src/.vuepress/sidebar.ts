@@ -13,9 +13,15 @@ export default sidebar({
         collapsible: true,
 
       },{
-        text: "第一章",
+        text: "第一章 函数极限与连续",
         icon: "laptop-code",
         prefix: "c1/",
+        children: "structure",
+        collapsible: true,
+      },{
+        text: "第二章 数列极限",
+        icon: "laptop-code",
+        prefix: "c2/",
         children: "structure",
         collapsible: true,
       },
