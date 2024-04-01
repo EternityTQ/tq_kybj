@@ -268,6 +268,8 @@ dom + in + ate(v.) -> 统治，支配
 ### predominance
 n. 优势；主导地位
 
+pre + dom + in + ance -> 提前占据优势(家一样的感觉) -> 主导地位
+
 派：predomninant adj. 主要的，占主导地位的
 
 ### random
