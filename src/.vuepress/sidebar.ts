@@ -7,6 +7,12 @@ export default sidebar({
       icon: "book",
       prefix: "gaoshu/",
       children: [{
+        text: "错题集",
+        icon: "book",
+        link: "ctz",
+        collapsible: true,
+
+      },{
         text: "公式合集",
         icon: "screwdriver-wrench",
         link: "tools",
@@ -22,6 +28,12 @@ export default sidebar({
         text: "第二章 数列极限",
         icon: "laptop-code",
         prefix: "c2/",
+        children: "structure",
+        collapsible: true,
+      },{
+        text: "第三章 一元函数微分学的概念",
+        icon: "laptop-code",
+        prefix: "c3/",
         children: "structure",
         collapsible: true,
       },
