@@ -31,7 +31,7 @@ export default sidebar({
         children: "structure",
         collapsible: true,
       },{
-        text: "第三章 一元函数微分学的概念",
+        text: "第三章 一元函数微分学概念",
         icon: "laptop-code",
         prefix: "c3/",
         children: "structure",

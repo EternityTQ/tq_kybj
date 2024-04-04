@@ -11,6 +11,7 @@ $$\sqrt{\frac{a^2+b^2}{2}}\geq \frac{a+b}{2} \geq \sqrt{ab} \geq \frac{2}{\frac 
 注意：均为$x\to 0$
 
 基础：
+
 $$\sin x \backsim x $$
 
 $$\tan x \backsim x $$
@@ -67,4 +68,37 @@ $$\ln (1+x) = x-\frac{x^2}{2} + \frac{x^3}{3} + o(x^3)$$
 $$e^x = 1+x+\frac{x^2}{2!} + \frac{x^3}{3!}+o(x^3)$$
 
 $$(1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+o(x^2)$$
+
+### 3.1 导数的常用定义形式
+
+
+$$
+\begin{align*}
+f'(x_0)&=\lim_{\Delta x\to 0}\frac{\Delta y}{\Delta x}\\\\
+& = \lim_{\Delta x\to 0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}\\\\
+& = \lim_{x\to x_0}\frac{f(x)-f(x_0)}{x-x_0}
+\end{align*}
+$$
+
+### 3.1 可微的常用公式
+$$dx = \Delta x$$
+
+$$dy = f'(x)dx = A\Delta x$$
+
+$$\Delta f(x)=f(x+\Delta x)-f(x)$$
+
+$$\Delta y=dy+o(\Delta x)$$
+
+
+
+
+
+
+
+
+
+
+
+
+
 
