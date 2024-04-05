@@ -69,7 +69,7 @@ $$e^x = 1+x+\frac{x^2}{2!} + \frac{x^3}{3!}+o(x^3)$$
 
 $$(1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+o(x^2)$$
 
-### 3.1 导数的常用定义形式
+## 3.1 导数的常用定义形式
 
 
 $$
@@ -80,7 +80,7 @@ f'(x_0)&=\lim_{\Delta x\to 0}\frac{\Delta y}{\Delta x}\\\\
 \end{align*}
 $$
 
-### 3.1 可微的常用公式
+## 3.1 可微的常用公式
 $$dx = \Delta x$$
 
 $$dy = f'(x)dx = A\Delta x$$
@@ -89,7 +89,33 @@ $$\Delta f(x)=f(x+\Delta x)-f(x)$$
 
 $$\Delta y=dy+o(\Delta x)$$
 
+## 4.1 基本求导公式
 
+$$(\ln|x|)'=\frac 1x$$
+
+$$(\sin x)'=\cos x$$
+
+$$(\cos x)'=-\sin x$$
+
+$$(\arcsin x)'=\frac{1}{\sqrt{1-x^2}}$$
+
+$$(\arccos x)'=-\frac{1}{\sqrt{1-x^2}}$$
+
+$$(\tan x)'=\sec^2 x$$
+
+$$(\cot x)'=-\csc^2 x$$
+
+$$(\arctan x)'=\frac{1}{1+x^2}$$
+
+$$(arccot x)'=-\frac{1}{1+x^2}$$
+
+$$(\sec x)'=\sec x\tan x$$
+
+$$(\csc x)'=-\csc x\cot x$$
+
+$$[\ln(x+\sqrt{x^2+1})]'=\frac{1}{\sqrt{x^2+1}}$$
+
+$$[\ln(x+\sqrt{x^2-1})]'=\frac{1}{\sqrt{x^2-1}}$$
 
 
 
