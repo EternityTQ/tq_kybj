@@ -18,6 +18,8 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  docsBranch:"master",
+
   // 导航栏
   navbar,
 
