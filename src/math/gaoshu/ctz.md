@@ -1,5 +1,6 @@
 ---
 title: 错题集
+icon: book
 ---
 注：仅记录题目，后面必须回来做一遍
 
@@ -33,7 +34,7 @@ C. 存在间断点x=0
 
 D. 存在间断点x=-1
 
-### 课后 1.6 
+### 课后 1.6 √
 
 设$f(x)=\frac{x}{\sqrt{1+x^2}},f_1(x)=f[f(x)],f_2(x)=f[f_1(x)],f_{n+1}(x)=f[f_n(x)](n=1,2,3,\cdots)$，则$f_n(x)=( )$
 
@@ -57,9 +58,9 @@ $$f(x)=\ln (1+x)+2x·\lim_{x\to 0}\frac{f(x)}{\sin x}$$
 
 ## 2. 数列极限
 
-### 课后 2.3
+### 课后 2.3 √
 
-$$\lim_{x\to\infty}\left(\sqrt{n+\sqrt{n}}-\sqrt{n-\sqrt{n}} \right)=$$
+$$\lim_{n\to\infty}\left(\sqrt{n+\sqrt{n}}-\sqrt{n-\sqrt{n}} \right)=$$
 
 ### 课后 2.4
 
@@ -67,17 +68,61 @@ $$\lim_{x\to\infty}\left(\sqrt{n+\sqrt{n}}-\sqrt{n-\sqrt{n}} \right)=$$
 
 $$\lim_{n\to\infty}\frac{n^{99}}{n^k-(n-1)^k}$$
 
-### 课后 2.7
+### 课后 2.7 √
 
 设函数$f(x)$在$[a,b]$上连续，$x_1,x_2,\cdots,x_n$是$[a,b]$上的一个点列，求下列极限
 
 $$\lim_{n\to\infty}\sqrt[n]{\frac 1n \sum^n_{k=1}e^{f(x_k)}}$$
+
+
+>单调有界准则
+
 
 ### 课后 2.8
 
 设$x_1=2, x_n+(x_n-4)x_{n-1}=3\text{  }(n=2,3,...)$，证明$\lim_{n\to\infty}x_n$存在，并求其值
 
 
+### 1000题 A2.2
+
+当$n\to\infty$时，$(1+\frac 1n)^n-e$与$\frac an$是等价无穷小量，则a=___
+
+### 1000题 A2.12
+
+设单调递减数列$\{x_n\}$满足$x_{n+1}=2\ln (1+x_n),x_1>a>0$，且a是$x-2\ln(1+x)=0$的唯一非零解，证明$\{x_n\}$收敛
+
+## 3. 一元函数微分学的概念
+
+### 课后 3.5 √
+
+设$f(x)$满足$f(0)=0$，且$f'(x)$存在，求：
+
+$$\lim_{x\to 0}\frac{f(1-\sqrt{\cos x})}{\ln(1-x\sin x)}$$
+
+
+### 课后 3.7
+
+设$f(x)=\begin{cases}
+     x^x\sin\frac πx, &x<0  \\\\
+     A, &x=0 \\\\
+     ax^2+b, &x>0
+\end{cases}$，求常数A,a,b的值，使f(x)在x=0处可导，并求$f'(x)$
+
+### 课后 3.8
+已知函数$f(x)$在x=1处可导，且$\lim_{x\to 0}\frac{f(e^{x^2})-3f(1+\sin^2x)}{x^2}=2$，求$f'(1)$
+
+### 课后 3.9 √
+
+设$\delta>0$，$f(x)$在$[-\delta,\delta]$上有定义，$f(0)=1$，且满足
+
+$$\lim_{x\to 0}\frac{\ln(1-2x)+2xf(x)}{x^2}=0$$
+
+证明：$f(x)$在x=0处可导，并求$f'(0)$
+
+> 泰勒公式
+
+### 1000题 A3.8
+设函数$f(x)$连续，$\lim_{x\to 1}\frac{f(x)-1}{\ln x}=2$，则曲线$y=f(x)$在点$x=1$处的切线方程是
 
 
 
