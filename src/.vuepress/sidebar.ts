@@ -19,21 +19,33 @@ export default sidebar({
         collapsible: true,
 
       },{
-        text: "第一章 函数极限与连续",
+        text: "第1讲 函数极限与连续",
         icon: "laptop-code",
         prefix: "c1/",
         children: "structure",
         collapsible: true,
       },{
-        text: "第二章 数列极限",
+        text: "第2讲 数列极限",
         icon: "laptop-code",
         prefix: "c2/",
         children: "structure",
         collapsible: true,
       },{
-        text: "第三章 一元函数微分学概念",
+        text: "第3讲 一元微分学的概念",
         icon: "laptop-code",
         prefix: "c3/",
+        children: "structure",
+        collapsible: true,
+      },{
+        text: "第4讲 一元微分学的计算",
+        icon: "laptop-code",
+        prefix: "c4/",
+        children: "structure",
+        collapsible: true,
+      },{
+        text: "第5讲 一元微分学几何应用",
+        icon: "laptop-code",
+        prefix: "c5/",
         children: "structure",
         collapsible: true,
       },

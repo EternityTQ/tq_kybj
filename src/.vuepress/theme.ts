@@ -49,6 +49,7 @@ export default hopeTheme({
   plugins: {
     catalog: true,
     
+    
     // 你应该自行生成自己的评论服务
 
     components: {
