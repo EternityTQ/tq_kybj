@@ -114,7 +114,7 @@ $$\begin{aligned}
     & (e^{ax+b})^{(n)}=a^ne^{ax+b}\\\\
     & [sin(ax+b)]^{(n)}=a^nsin(ax+b+\frac{nπ}{2})\\\\
     & [cos(ax+b)]^{(n)}=a^ncos(ax+b+\frac{nπ}{2})\\\\
-    & [\ln(ax+b)]^(n)=(-1)^{n-1}a^n\frac{(n-1)!}{(ax+b)^n}\\\\
+    & [\ln(ax+b)]^{(n)}=(-1)^{n-1}a^n\frac{(n-1)!}{(ax+b)^n}\\\\
     & (\frac{1}{ax+b})^n=(-1)^{n}a^n\frac{n!}{(ax+b)^{n+1}}
 \end{aligned}$$
 
