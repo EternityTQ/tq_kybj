@@ -139,6 +139,12 @@ export default sidebar({
         prefix: "c5/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第六章 图",
+        icon: "laptop-code",
+        prefix: "c6/",
+        children: "structure",
+        collapsible: true,
       },
       {
         text: "错题集",
