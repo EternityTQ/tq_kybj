@@ -49,7 +49,7 @@ export default sidebar({
         children: "structure",
         collapsible: true,
       },{
-        text: "第5讲 一元微分学三大应用",
+        text: "第6讲 一元微分学三大应用",
         icon: "laptop-code",
         prefix: "c6/",
         children: "structure",
