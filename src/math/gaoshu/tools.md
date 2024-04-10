@@ -127,7 +127,7 @@ $$\begin{aligned}
     & \ln(1+x)=\sum_{n=0}^\infty\color{red}(-1)^{n-1}\frac{x^n}{n}\color{black}=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots+\color{red}(-1)^{n-1}\frac{x^n}{n}\color{black}+\cdots \\\\
     & \sin x=\sum_{n=0}^\infty\color{red}(-1)^n\frac{x^{2n+1}}{(2n+1)!}\color{black}=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots+\color{red}(-1)^n\frac{x^{2n+1}}{(2n+1)!}\color{black}+\cdots \\\\
     & \cos x=\sum_{n=0}^\infty\color{red}(-1)^n\frac{x^{2n}}{(2n)!}\color{black}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots+\color{red}(-1)^n\frac{x^{2n}}{(2n)!}\color{black}+\cdots \\\\
-    & (1+x)^a=\sum_{n=0}^\infty1+ax+\frac{a(a-1)}{2!}x^2+\cdots+\color{red}\frac{a(a-1)\cdots(a-n+1)}{n!}x^n\color{black}+\cdots
+    & (1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\cdots+\color{red}\frac{a(a-1)\cdots(a-n+1)}{n!}x^n\color{black}+\cdots
 \end{aligned}$$
 
 
