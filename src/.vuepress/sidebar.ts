@@ -48,6 +48,12 @@ export default sidebar({
         prefix: "c5/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第5讲 一元微分学三大应用",
+        icon: "laptop-code",
+        prefix: "c6/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
