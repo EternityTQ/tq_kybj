@@ -115,7 +115,22 @@ export default sidebar({
       text: "数据结构",
       icon: "book",
       prefix: "sjjg/",
-      children: [{
+      children: [
+        {
+          text: "错题集",
+          icon: "book",
+          link: "ctz",
+        },
+        {
+          text: "算法题",
+          icon: "book",
+          link: "sft",
+        },
+        {
+          text: "习题本",
+          icon: "book",
+          link: "xtb",
+        },{
         text: "第一章 绪论",
         icon: "laptop-code",
         prefix: "c1/",
@@ -151,22 +166,13 @@ export default sidebar({
         prefix: "c6/",
         children: "structure",
         collapsible: true,
-      },
-      {
-        text: "错题集",
-        icon: "book",
-        link: "ctz",
-      },
-      {
-        text: "算法题",
-        icon: "book",
-        link: "sft",
-      },
-      {
-        text: "习题本",
-        icon: "book",
-        link: "xtb",
-      },
+      },{
+        text: "第七章 查找",
+        icon: "laptop-code",
+        prefix: "c7/",
+        children: "structure",
+        collapsible: true,
+      }
     ],
       collapsible: true,
     },
