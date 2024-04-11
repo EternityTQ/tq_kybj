@@ -52,7 +52,7 @@ $$e^x-1-x\backsim \frac{1}{2}x^2$$
 
 $$1-(\cos x)^a\backsim \frac{1}{2}ax^2$$
 
-### 1.4 泰勒展开式
+### 1.4 泰勒展开式 (用于计算无穷小)
 $$\sin x=x-\frac{x^3}{3!}+o(x^3)$$
 
 $$\cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}+o(x^4)$$
@@ -118,7 +118,7 @@ $$\begin{aligned}
     & (\frac{1}{ax+b})^n=(-1)^{n}a^n\frac{n!}{(ax+b)^{n+1}}
 \end{aligned}$$
 
-### 4.1 泰勒展开式
+### 4.1 泰勒展开式 (用于计算高阶导数)
 
 $$\begin{aligned}
     & e^x=\sum_{n=0}^\infty\color{red}\frac{x^n}{n!}\color{black}=1+x+\frac{x^2}{2!}+\cdots+\color{red}{}\frac{x^n}{n!}\color{black}+\cdots \\\\
