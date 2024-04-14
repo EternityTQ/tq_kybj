@@ -49,9 +49,21 @@ export default sidebar({
         children: "structure",
         collapsible: true,
       },{
-        text: "第6讲 一元微分学三大应用",
+        text: "第6讲 一元微分学公式应用",
         icon: "laptop-code",
         prefix: "c6/",
+        children: "structure",
+        collapsible: true,
+      },{
+        text: "第7讲 一元微分学物理应用",
+        icon: "laptop-code",
+        prefix: "c7/",
+        children: "structure",
+        collapsible: true,
+      },{
+        text: "第8讲 一元积分学的概念",
+        icon: "laptop-code",
+        prefix: "c8/",
         children: "structure",
         collapsible: true,
       },
