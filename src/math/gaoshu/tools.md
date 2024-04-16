@@ -10,6 +10,9 @@ $$\frac{1}{1-q}=\sum_{i=0}^\infty q^i \space(|q|<1)$$
 ### 0.1 常用不等式
 
 $$\sqrt{\frac{a^2+b^2}{2}}\geq \frac{a+b}{2} \geq \sqrt{ab} \geq \frac{2}{\frac 1a+\frac 1b}$$
+
+$$|a\pm b| \leq |a| \pm |b|$$
+
 ## 第一讲 函数极限与连续
 ### 1.3 常见等价无穷小量
 注意：均为$x\to 0$
