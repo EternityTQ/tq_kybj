@@ -13,6 +13,10 @@ $$\sqrt{\frac{a^2+b^2}{2}}\geq \frac{a+b}{2} \geq \sqrt{ab} \geq \frac{2}{\frac 
 
 $$|a\pm b| \leq |a| \pm |b|$$
 
+$$e^x>x+1$$
+
+$$x-1>\ln x$$
+
 ## 第一讲 函数极限与连续
 ### 1.3 常见等价无穷小量
 注意：均为$x\to 0$
@@ -79,25 +83,23 @@ $$(1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+o(x^2)$$
 ## 第二讲 数列极限
 
 ### 1. 常见不等式放缩
-$\sin x<x<\tan x(0<x<\frac π2)$
+$$\sin x<x<\tan x(0<x<\frac π2)$$
 
-$\sin x<x(x>0)$
+$$\sin x<x(x>0)$$
 
-⑤$\tan x<\frac 4πx$
+$$\tan x<\frac 4πx$$
 
-$\sin x>\frac 2πx$
+$$\sin x>\frac 2πx$$
 
-$\arctan x \leq x \leq \arcsin x (0\leq x \leq 1)$
+$$\arctan x \leq x \leq \arcsin x (0\leq x \leq 1)$$
 
-⑥ $e^x\geq x+1(\forall x)$
+$$e^x\geq x+1$$
 
-$x-1\geq \ln x(x>0)$
+$$x-1\geq \ln x(x>0)$$
 
-⑦(重要) $\frac{1}{1+x}<\ln (1+\frac 1x)< \frac 1x(x>0)$
+$$\frac{1}{1+x}<\ln (1+\frac 1x)< \frac 1x(x>0)$$
 
-或
-
-$\frac{x}{1+x}<\ln (1+x)<x(x>0)$
+$$\frac{x}{1+x}<\ln (1+x)<x(x>0)$$
 
 ## 第三讲 一元函数微分学的概念
 ### 3.1 导数的常用定义形式
