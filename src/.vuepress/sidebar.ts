@@ -66,6 +66,12 @@ export default sidebar({
         prefix: "c8/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第9讲 一元积分学的计算",
+        icon: "laptop-code",
+        prefix: "c9/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
