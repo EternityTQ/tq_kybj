@@ -190,6 +190,12 @@ export default sidebar({
         prefix: "c7/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第八章 排序",
+        icon: "laptop-code",
+        prefix: "c8/",
+        children: "structure",
+        collapsible: true,
       }
     ],
       collapsible: true,
