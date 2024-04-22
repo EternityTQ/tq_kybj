@@ -206,7 +206,9 @@ $$\begin{aligned}
     & \int\sin^2xdx=\frac x2-\frac{\sin 2x}{4}+C\\
     & \int \cos^2xdx=\frac x2+\frac{\sin 2x}{4}+C\\
     & \int\tan^2xdx=\tan x-x+C(\tan^2x=\sec^2x-1)\\
-    & \int\cot^2xdx=-\cot x-x+C(\cot^2x=\csc^2x-1)
+    & \int\cot^2xdx=-\cot x-x+C(\cot^2x=\csc^2x-1)\\\\
+    & \int \sec xdx=\ln|\tan x+\sec x|+C\\
+    & \int \csc xdx=\ln|\csc x-\cot x|+C
 \end{aligned}$$
 
 ### 常见凑微分公式
