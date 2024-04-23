@@ -72,6 +72,12 @@ export default sidebar({
         prefix: "c9/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第10讲 一元积分学几何应用",
+        icon: "laptop-code",
+        prefix: "c10/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
