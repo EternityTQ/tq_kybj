@@ -154,7 +154,8 @@ export default sidebar({
           text: "习题本",
           icon: "book",
           link: "xtb",
-        },{
+        },
+        {
         text: "第一章 绪论",
         icon: "laptop-code",
         prefix: "c1/",
