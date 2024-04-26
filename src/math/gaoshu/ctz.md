@@ -291,6 +291,159 @@ $$a_0+a_1x+a_2x^2+\cdots+a_nx^n=0$$
 设数列$\{x_n\}$满足：$0<x_n<\frac{\pi}{2},\space x_n\cos x_{n+1}=\sin x_n,\space n=1,2,\cdots$，证明$\{x_n\}$收敛，并求$\lim\limits_{n\to\infty}x_n$
 
 
+## 7. 一元微分学的物理应用
+
+### 课后 7.3
+
+甲车以$24km/h$的速度向北行驶，同时正东$10km$处乙车以$20km/h$的速度向东行驶，从这一时刻起经过1小时后，求两车之间的距离对时间的变化率
+
+错误原因：图没画好
+
+### 1000题 A7.4
+
+已知某圆柱底面半径与高随时间变化的速率分别为2cm/s，-3cm/s，且圆柱体的体积与表面积随时间变化的速率分别为$-100\pi cm^3/s$,$40\pi cm^2/s$，则圆柱体的底面半径与高分别为？
+
+答案蒙对了，但还是想自己算
+
+## 8. 一元积分学的概念与性质
+
+>我服了爸爸
+
+### 课后 8.3
+
+$$\lim_{n\to\infty}\sum_{i=1}^n\frac{\sin\frac{i\pi}{n}}{n+\frac 1i}=?$$
+
+### 课后 8.6
+
+讨论$\int_2^{+\infty}\frac{1}{x\ln^px}dx$的敛散性，其中p为任意实数
+
+### 1000题 A8.2
+
+$$\lim_{n\to\infty}\frac 1n\sum_{i=1}^n[\ln(3n-2i)-\ln(n+2i)]=?$$
+
+### 1000题 A8.4
+
+已知下式，则()
+
+$$M=\int_{-\frac 12}^{\frac 12}(1+\frac{x}{1+x^2})dx, N=\int_0^1\frac{(1+x)\ln^2(1+x)}{x^2}dx, K=\int_0^1\frac{e^x}{1+x}dx$$
+
+
+(A). M>N>K
+
+(B). N>K>M
+
+(C). K>M>N
+
+(D). K>N>M
+
+错误原因：什么√8
+
+### 1000题 A8.7
+
+设函数$g(x)$在$[0,\frac 2π]$上连续，若在$(0,\frac 2π)$内有$g'(x)\geq 0$，则对任意的$x∈(0,\frac 2π)$，都有()
+
+(A). $\int_x^{\frac 2π}g(t)\geq\int_x^{\frac 2π}g(\sin t)dt$
+
+(B). $\int_x^1g(t)\leq\int_x^1g(\sin t)dt$
+
+(C). $\int_x^1g(t)\geq\int_x^1g(\sin t)dt$
+
+(D). $\int_x^{\frac 2π}g(t)\leq\int_x^{\frac 2π}g(\sin t)dt$
+
+### 1000题 A8.8
+
+若$\sqrt{1-x^2}$是$xf(x)$的一个原函数，则$\int_0^1\frac{1}{f(x)}dx$=?
+
+### 1000题 A8.9
+
+已知函数$f$是$\int_1^{e^x}\frac{1}{1+t^3}dt$的反函数，则$f'(0)=?$
+
+## 9. 一元函数积分学的计算
+
+:::danger
+开始重灾区
+:::
+
+### 课后 9.1
+
+已知：
+
+$$\int xf(x)dx=\arcsin x+C$$
+
+求：
+
+$$\int\frac{1}{f(x)}dx$$
+
+### 课后 9.3
+
+$$\lim_{x\to+\infty}\frac{\int_e^x(1-\frac 1t)^t·e^{et}dt}{e^{ex}}=?$$
+
+
+### 课后 9.6
+
+$$\int\arcsin\sqrt{\frac{x}{a+x}}dx=?$$
+
+### 课后 9.7
+
+$$\int\frac{\arctan e^x}{\sqrt{x}}dx=?$$
+
+### 课后 9.10
+
+$$\int_0^{\frac 34 π}\frac{1}{1+\cos^2x}=?$$
+
+### 课后 9.11
+
+$$\int_{\frac 12}^{\frac 32}\frac{(1-x)\arcsin(1-x)}{\sqrt{2x-x^2}}dx=?$$
+
+### 课后 9.12
+
+$$\int_{-\frac π4}^{\frac π4}e^{\frac x2}\frac{\cos x-\sin x}{\sqrt{\cos x}}dx$$
+
+### 课后 9.13
+
+$$\int_0^π\frac{x\sin x}{1+\cos^2x}dx$$
+
+### 课后 9.14
+
+$$\int_{-1}^1\frac{x+1}{1+\sqrt[3]{x^2}}dx$$
+
+### 课后 9.15
+
+已知
+
+$$f(x)=\begin{cases}
+     \frac{1}{1+\sin x}, &x\geq 0.\\\\
+     \frac{1}{1+e^x}, &x<0
+\end{cases}$$
+
+求下式
+
+$$\int_{-1}^{\frac π4}f(x)dx$$
+
+### 课后 9.16
+
+求连续函数$f(x)$，使其满足：
+
+$$\int_0^1f(tx)dt=f(x)+x\sin x$$
+
+### 课后 9.17
+
+设$f(x)=\int_0^1t|t-x|dt$，求$f'(x)$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
