@@ -78,6 +78,12 @@ export default sidebar({
         prefix: "c10/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第11讲 积分等式与不等式",
+        icon: "laptop-code",
+        prefix: "c11/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
@@ -218,7 +224,14 @@ export default sidebar({
       text: "计算机组成原理",
       icon: "book",
       prefix: "jsjyl/",
-      children: "structure",
+      children: [{
+        text: "第一章 计算机系统概述",
+        icon: "laptop-code",
+        prefix: "c1/",
+        children: "structure",
+        collapsible: true,
+      }
+    ],
       collapsible: true,
     },
     {
