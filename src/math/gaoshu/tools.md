@@ -17,6 +17,10 @@ $$e^x>x+1$$
 
 $$x-1>\ln x$$
 
+### 半角公式
+
+### 三角函数降幂公式
+
 ## 第一讲 函数极限与连续
 ### 常见等价无穷小量
 注意：均为$x\to 0$
@@ -162,7 +166,78 @@ $$\begin{aligned}
     & \cos x=\sum_{n=0}^\infty\color{red}(-1)^n\frac{x^{2n}}{(2n)!}\color{black}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots+\color{red}(-1)^n\frac{x^{2n}}{(2n)!}\color{black}+\cdots \\\\
     & (1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\cdots+\color{red}\frac{a(a-1)\cdots(a-n+1)}{n!}x^n\color{black}+\cdots
 \end{aligned}$$
+## 第五讲 一元微分学的几何应用
 
+### 极值点与拐点
+
+| 特性 | 极值点 | 拐点 |
+| --- | ------ | ---- |
+| 导数 | 一阶导为0 | 二阶导为0 |
+| 第一充分条件 | 判断一阶导的变号情况<br>左高右低是极大<br>左低右高是极小 | 判断二阶导是否变号 |
+| 第二充分条件 | 判断一阶导是否为0<br>且二阶导是否**不**为0 | 判断二阶导是否为0<br>且三阶导是否**不**为0 |
+| 第三充分条件 | 判断偶数阶导是否**不**为0 | 判断奇数阶导是否**不**为0|
+
+### 曲率
+
+
+设函数在该点二阶导存在，则该点的曲率公式为：
+
+$$k=\frac{|y''|}{[1+(y')^2]^{\frac 32}}$$
+
+曲率半径为：
+
+$$R=\frac 1k = \frac{[1+(y')^2]^{\frac 32}}{|y''|}$$
+
+## 第六讲 一元微分学的公式
+
+### 1. 费马定理
+
+若$f(x)$在$x_0$处**可导**且**取极值**，则$f'(x_0)=0$
+
+
+### 2. 罗尔定理
+  
+设$f(x)$满足闭区间连续，开区间可导，且$f(a)=f(b)$，则存在$\xi∈(a,b)$，使得$f'(\xi)=0$
+
+### 3. 拉格朗日中值定理
+
+若函数$f(x)$满足在闭区间连续，开区间可导，则存在$\xi∈(a,b)$，使得 $f(b)-f(a)=f'(\xi)(b-a)$
+
+或者写成：
+
+$$f'(\xi)=\frac{f(b)-f(a)}{b-a}$$
+
+### 4. 柯西中值定理
+
+设$f(x),g(x)$均满足闭区间连续，开区间可导，且$g'(x)\not=0$，则存在$\xi∈(a,b)$，使得
+
+$$\frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(\xi)}{g'(\xi)}$$
+
+### 5. 泰勒公式
+
+带*拉格朗日余项*的n阶泰勒公式( ==区间上== )
+
+设$f(x)$在$x_0$的某个邻域内n+1阶导数存在，则对该邻域内的任意点x，均有
+
+$$f(x)=f(x_0)+f'(x_0)(x-x_0)\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n-\color{red}\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}$$
+
+其中，$\xi$介于$x$与$x_0$之间
+
+:::tip
+此公式适用于区间，常在证明题中使用，如证不等式，中值等式等
+:::
+
+带*佩亚诺余项*的n阶泰勒公式( ==局部端点上== )
+
+设$f(x)$在$x_0$上n阶可导，则对存在$x_0$的一个邻域，对于该邻域内的任意点x，有
+
+$$f(x)=f(x_0)+f'(x_0)(x-x_0)\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n-\color{red}o((x-x_0)^n)$$
+
+:::tip
+此公式仅使用于点$x=x_0$及其邻域，常用于研究点$x=x_0$处的某些结论，
+
+如求极限，判定无穷小阶数，判定极值等
+:::
 
 ## 第九讲 一元函数积分学的计算
 
@@ -207,11 +282,29 @@ $$\begin{aligned}
     & \int \cos^2xdx=\frac x2+\frac{\sin 2x}{4}+C\\
     & \int\tan^2xdx=\tan x-x+C(\tan^2x=\sec^2x-1)\\
     & \int\cot^2xdx=-\cot x-x+C(\cot^2x=\csc^2x-1)\\\\
-    & \int \sec xdx=\ln|\tan x+\sec x|+C\\
-    & \int \csc xdx=\ln|\csc x-\cot x|+C
 \end{aligned}$$
 
 ### 常见凑微分公式
+
+$$\begin{aligned}
+    & \int xf(x^2)dx=\frac 12\int f(x^2)d(x^2)=\frac 12\int f(u)du \\\\
+    & \int\sqrt{x}f(x^{\frac 32})dx=\frac 23f(x^{\frac 32})d(x^{\frac 32})=\frac 32\int f(u)du\\\\
+    & \int\frac{f(\sqrt{x})}{\sqrt{x}}dx=2\int f(\sqrt{x})d(\sqrt{x})=2\int f(u)du\\\\
+    & \int \frac{f(-\frac 1x)}{x^2}dx=2\int f(-\frac 1x)d(-\frac 1x)=\int f(u)du\\\\
+    & \int \frac{f(\ln x)}{x}dx=\int f(\ln x)d(\ln x)=\int f(u)du\\\\
+    & \int e^xf(e^x)dx=\int f(e^x)d(e^x)= \int f(u)du\\\\
+    & \int a^xf(a^x)dx=\frac{1}{\ln a}\int f(a^x)d(a^x)=\frac{1}{\ln a}\int f(u)du\\\\
+    & \int \sin x·f(-\cos x)dx=\int f(-\cos x)d(-\cos x)=\int f(u)du\\\\
+    & \int \cos x·f(\sin x)dx=\int f(\sin x)d(\sin x)=\int f(u)du\\\\
+    & \int \frac{f(\tan x)}{\cos^2x}dx=\int f(\tan x)d(\tan x)=\int f(u)du\\\\
+    & \int \frac{f(-\cot x)}{\sin^2x}dx=\int f(-\cot x)d(-\cot x)=\int f(u)du\\\\
+    & \int \frac{f(\arctan x)}{1+x^2}=\int f(\arctan x)d(\arctan x)=\int f(u)du\\\\
+    & \int \frac{f(\arcsin x)}{\sqrt{1-x^2}}=\int f(\arcsin x)d(\arcsin x)=\int f(u)du
+
+
+
+
+\end{aligned}$$
 
 ### 分部积分法推广公式
 

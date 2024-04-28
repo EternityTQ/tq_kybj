@@ -230,7 +230,13 @@ export default sidebar({
         prefix: "c1/",
         children: "structure",
         collapsible: true,
-      }
+      },{
+        text: "第二章 数据的表示与运算",
+        icon: "laptop-code",
+        prefix: "c2/",
+        children: "structure",
+        collapsible: true,
+      },
     ],
       collapsible: true,
     },
