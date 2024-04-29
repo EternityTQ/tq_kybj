@@ -130,19 +130,20 @@ $$\Delta y=dy+o(\Delta x)$$
 
 $$\begin{aligned}
 & (\ln|x|)'=\frac{1}{x} \\\\
-& (\sin x)'=\cos x \\\\
+& (\sin x)'=\cos x \\
 & (\cos x)'=-\sin x \\\\
-& (\arcsin x)'=\frac{1}{\sqrt{1-x^2}} \\\\
+& (\arcsin x)'=\frac{1}{\sqrt{1-x^2}} \\
 & (\arccos x)'=-\frac{1}{\sqrt{1-x^2}} \\\\
-& (\tan x)'=\sec^2 x \\\\
+& (\tan x)'=\sec^2 x \\
 & (\cot x)'=-\csc^2 x \\\\
-& (\arctan x)'=\frac{1}{1+x^2} \\\\
+& (\arctan x)'=\frac{1}{1+x^2} \\
 & (\text{arccot }x)'=-\frac{1}{1+x^2} \\\\
-& (\sec x)'=\sec x\tan x \\\\
+& (\sec x)'=\sec x\tan x \\
 & (\csc x)'=-\csc x\cot x \\\\
-& [\ln(x+\sqrt{x^2+1})]'=\frac{1}{\sqrt{x^2+1}} \\\\
-& [\ln(x+\sqrt{x^2+a^2})]'=\frac{1}{\sqrt{x^2+a^2}} \\\\
-& [\ln(x+\sqrt{x^2-1})]'=\frac{1}{\sqrt{x^2-1}}
+& [\ln(x+\sqrt{x^2+1})]'=\frac{1}{\sqrt{x^2+1}} \\
+& [\ln(x+\sqrt{x^2+a^2})]'=\frac{1}{\sqrt{x^2+a^2}} \\
+& [\ln(x+\sqrt{x^2-1})]'=\frac{1}{\sqrt{x^2-1}}\\\\
+& (\sin x\cos x)'=\cos 2x
 \end{aligned}$$
 
 ### 常用高阶导数
@@ -249,9 +250,9 @@ $$f(x)=f(x_0)+f'(x_0)(x-x_0)\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n-\color{red}o
 :::tip
 注意辨析如下形式：
 
-| $\frac{1}{狗^2+狗^2}$ | $\frac{1}{狗^2-狗^2}$ |
+| $\frac{1}{\text{狗}^2+\text{狗}^2}$ | $\frac{1}{\text{狗}^2-\text{狗}^2}$ |
 | --- | --- |
-| $\frac{1}{\sqrt{狗^2+狗^2}}$ | $\frac{1}{\sqrt{狗^2-狗^2}}$ |
+| $\frac{1}{\sqrt{\text{狗}^2+\text{狗}^2}}$ | $\frac{1}{\sqrt{\text{狗}^2-\text{狗}^2}}$ |
 :::
 $$\begin{aligned}
     & \int x^kdx=\frac{1}{k+1}x^{k+1}+C,k\not=-1\\\\
