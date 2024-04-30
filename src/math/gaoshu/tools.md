@@ -313,6 +313,10 @@ $$\begin{aligned}
     & \int \cos^2xdx=\frac x2+\frac{\sin 2x}{4}+C\\
     & \int\tan^2xdx=\tan x-x+C(\tan^2x=\sec^2x-1)\\
     & \int\cot^2xdx=-\cot x-x+C(\cot^2x=\csc^2x-1)\\\\
+    & \int\frac{1}{1+\sin x}dx=\tan x-\sec x+C\\
+    & \int\frac{1}{1+\cos x}dx=-\cot x-\csc x+C\\\\
+    & \int\frac{x^2}{1+x^2}dx=x-\arctan x+C\\\\
+    & \int\frac{x^2}{1+x}dx=x-\frac 12x^2+\ln|1+x|+C
 \end{aligned}$$
 
 ### 常见凑微分公式
