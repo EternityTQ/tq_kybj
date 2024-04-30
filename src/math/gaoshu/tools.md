@@ -17,9 +17,39 @@ $$e^x>x+1$$
 
 $$x-1>\ln x$$
 
-### 半角公式
+### 和差公式
 
-### 三角函数降幂公式
+$$\begin{aligned}
+    &\sin(\alpha\pm\beta)=\sin\alpha\sin\beta\pm\cos\alpha\cos\beta\\\\
+    &\cos(\alpha\pm\beta)=\cos\alpha\cos\beta\mp\sin\alpha\sin\beta\\\\
+    &\tan(\alpha\pm\beta)=\frac{\tan\alpha\pm\tan\beta}{1\mp\tan\alpha\tan\beta}\\\\
+    &\cot(\alpha\pm\beta)=\frac{\cot\alpha\cot\beta\mp1}{\cot\alpha\pm\cot\beta}
+\end{aligned}$$
+
+
+### 二倍角
+
+$$\begin{aligned}
+    & \sin 2\alpha=2\sin\alpha\cos\alpha\\\\
+    & \cos 2\alpha=\cos^2\alpha-\sin^2\alpha=1-2\sin^2\alpha=2\cos^2\alpha-1\\\\
+    & \tan 2\alpha=\frac{2\tan\alpha}{1-\tan^2\alpha}\\\\
+    & \cot 2\alpha=\frac{\cot^2\alpha-1}{2\cot\alpha}
+\end{aligned}$$
+
+### 半角公式
+$$\begin{aligned}
+    & \sin^2\frac{\alpha}{2}=\frac 12(1-\cos \alpha)\\\\
+    & \cos^2\frac{\alpha}{2}=\frac 12(1+\cos\alpha)\\\\
+    & \tan\frac{\alpha}{2}=\frac{1-\cos\alpha}{\sin\alpha}=\frac{\sin\alpha}{1+\cos\alpha}=\pm\sqrt{\frac{1-\cos\alpha}{1+\cos\alpha}}\\\\
+    & \cot\frac{\alpha}{2}=\frac{\sin\alpha}{1-\cos\alpha}=\frac{1+\cos\alpha}{\sin\alpha}=\pm\sqrt{\frac{1+\cos\alpha}{1-\cos\alpha}}
+\end{aligned}$$
+
+### 万能公式
+
+若$t=\tan\frac x2$，则
+
+$$\sin x=\frac{2t}{1+t^2},\cos x=\frac{1-t^2}{1+t^2}$$
+
 
 ## 第一讲 函数极限与连续
 ### 常见等价无穷小量
@@ -308,8 +338,58 @@ $$\begin{aligned}
 \end{aligned}$$
 
 ### 分部积分法推广公式
+$$\int uv^{(4)}dx=uv^{(3)}-u'v''+u''v'-u^{(3)}v+\int u^{(4)}vdx$$
+
+可以写成如下表格：
+
+|u的各阶导数| $\color{red}u_+$ | $\color{blue}u'_-$ | $\color{red}u''_+$ | $\color{blue}u^{(3)}_-$ | $\color{purple}u^{(4)}_+$ |
+|---|---|---|---|---|---|
+| **v的各阶原函数** | $v^{(4)}$ | $\color{red}v^{(3)}$ | $\color{blue}v''$ | $\color{red}v'$ | $\color{blue}v$ |
+
+:::tip
+计算方法：从左上角开始，斜向同色相乘，红色加，蓝色减，直到最后一项，最后一列相乘，上一个加就是减，上一个减就是加
+:::
+
+###  行列式计算e^x^乘三角函数的积分
+<br>
+
+$$\int e^{ax}\sin bxdx=\frac{\begin{vmatrix}
+    (e^{ax})' & (\sin bx)' \\\\
+    e^{ax} & \sin bx
+\end{vmatrix}}{a^2+b^2}+C=\frac{ae^{ax}\sin bx-be^{ax}\cos bx}{a^2+b^2}+C\\\\$$
+
+<br>
+<br>
+
+$$\int e^{ax}\cos bxdx=\frac{\begin{vmatrix}
+    (e^{ax})' & (\cos bx)' \\\\
+    e^{ax} & \cos bx
+\end{vmatrix}}{a^2+b^2}+C=\frac{ae^{ax}\cos bx+be^{ax}\sin bx}{a^2+b^2}+C$$
 
 ### 点火公式
+:::tip
+点火成功要加$\frac π2$
+:::
 
+$$\begin{aligned}
+    &(\frac π2)\int_0^{\frac π2}\sin^nx=\int_0^{\frac π2}\cos^nxdx=\begin{cases}
+    \frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 23·1, &\text{n为大于1的奇数(点火失败)}\\\\
+    \frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2， &\text{n为正偶数(点火成功)}
+\end{cases}\\\\
+&(π)\int_0^π\sin^nxdx=\begin{cases}
+    2·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 23·1, &\text{n为大于1的奇数(点火失败)}\\\\
+    2·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2， &\text{n为正偶数(点火成功)}
+\end{cases}\\\\
+&(π)\int_0^π\cos^nxdx=\begin{cases}
+    0, &\text{n为正奇数(点火失败)}\\\\
+    2·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2， &\text{n为正偶数(点火成功)}
+\end{cases}\\\\
+
+&(2π)\int_0^{2π}\cos^nxdx=\int_0^{2π}\sin^nxdx\begin{cases}
+    0, &\text{n为正奇数(点火失败)}\\\\
+    4·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2， &\text{n为正偶数(点火成功)}
+\end{cases}
+\end{aligned}
+$$
 
 
