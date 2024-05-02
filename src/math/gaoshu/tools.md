@@ -323,7 +323,7 @@ $$\begin{aligned}
 
 $$\begin{aligned}
     & \int xf(x^2)dx=\frac 12\int f(x^2)d(x^2)=\frac 12\int f(u)du \\\\
-    & \int\sqrt{x}f(x^{\frac 32})dx=\frac 23f(x^{\frac 32})d(x^{\frac 32})=\frac 32\int f(u)du\\\\
+    & \int\sqrt{x}f(x^{\frac 32})dx=\frac 23f(x^{\frac 32})d(x^{\frac 32})=\frac 23\int f(u)du\\\\
     & \int\frac{f(\sqrt{x})}{\sqrt{x}}dx=2\int f(\sqrt{x})d(\sqrt{x})=2\int f(u)du\\\\
     & \int \frac{f(-\frac 1x)}{x^2}dx=2\int f(-\frac 1x)d(-\frac 1x)=\int f(u)du\\\\
     & \int \frac{f(\ln x)}{x}dx=\int f(\ln x)d(\ln x)=\int f(u)du\\\\
