@@ -66,10 +66,13 @@ export default hopeTheme({
       codetabs: true,
       component: true,
       demo: true,
-      katex: true,
       figure: true,
       imgLazyload: true,
       imgSize: true,
+      katex: {
+        colorIsTextColor: true,
+      },
+      
       include: true,
       mark: true,
       stylize: [

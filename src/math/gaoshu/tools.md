@@ -189,13 +189,13 @@ $$\begin{aligned}
 ###  泰勒展开式 (用于计算高阶导数)
 
 $$\begin{aligned}
-    & e^x=\sum_{n=0}^\infty\color{red}\frac{x^n}{n!}\color{black}=1+x+\frac{x^2}{2!}+\cdots+\color{red}{}\frac{x^n}{n!}\color{black}+\cdots \\\\
-    & \frac{1}{1+x}=\sum_{n=0}^\infty\color{red}(-1)^nx^n\color{black}=1-x+x^2-x^3+\cdots+\color{red}(-1)^nx^n\color{black}+\cdots \\\\
-    & \frac{1}{1-x}=\sum_{n=0}^\infty\color{red} x^n\color{black}=1+x+x^2+x^3+\cdots+\color{red}x^n\color{black}+\cdots  \\\\
-    & \ln(1+x)=\sum_{n=0}^\infty\color{red}(-1)^{n-1}\frac{x^n}{n}\color{black}=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots+\color{red}(-1)^{n-1}\frac{x^n}{n}\color{black}+\cdots \\\\
-    & \sin x=\sum_{n=0}^\infty\color{red}(-1)^n\frac{x^{2n+1}}{(2n+1)!}\color{black}=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots+\color{red}(-1)^n\frac{x^{2n+1}}{(2n+1)!}\color{black}+\cdots \\\\
-    & \cos x=\sum_{n=0}^\infty\color{red}(-1)^n\frac{x^{2n}}{(2n)!}\color{black}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots+\color{red}(-1)^n\frac{x^{2n}}{(2n)!}\color{black}+\cdots \\\\
-    & (1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\cdots+\color{red}\frac{a(a-1)\cdots(a-n+1)}{n!}x^n\color{black}+\cdots
+    & e^x=\sum_{n=0}^\infty\color{red}{\frac{x^n}{n!}}=1+x+\frac{x^2}{2!}+\cdots+\color{red}{\frac{x^n}{n!}}+\cdots \\\\
+    & \frac{1}{1+x}=\sum_{n=0}^\infty\color{red}{(-1)^nx^n}=1-x+x^2-x^3+\cdots+\color{red}{(-1)^nx^n}+\cdots \\\\
+    & \frac{1}{1-x}=\sum_{n=0}^\infty\color{red} {x^n}=1+x+x^2+x^3+\cdots+\color{red}{x^n}+\cdots  \\\\
+    & \ln(1+x)=\sum_{n=0}^\infty\color{red}{(-1)^{n-1}\frac{x^n}{n}}=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots+\color{red}{(-1)^{n-1}\frac{x^n}{n}}+\cdots \\\\
+    & \sin x=\sum_{n=0}^\infty\color{red}{(-1)^n\frac{x^{2n+1}}{(2n+1)!}}=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots+\color{red}{(-1)^n\frac{x^{2n+1}}{(2n+1)!}}+\cdots \\\\
+    & \cos x=\sum_{n=0}^\infty\color{red}{(-1)^n\frac{x^{2n}}{(2n)!}}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots+\color{red}{(-1)^n\frac{x^{2n}}{(2n)!}}+\cdots \\\\
+    & (1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\cdots+\color{red}{\frac{a(a-1)\cdots(a-n+1)}{n!}x^n}+\cdots
 \end{aligned}$$
 ## 第五讲 一元微分学的几何应用
 
@@ -250,7 +250,7 @@ $$\frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(\xi)}{g'(\xi)}$$
 
 设$f(x)$在$x_0$的某个邻域内n+1阶导数存在，则对该邻域内的任意点x，均有
 
-$$f(x)=f(x_0)+f'(x_0)(x-x_0)\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n-\color{red}\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}$$
+$$f(x)=f(x_0)+f'(x_0)(x-x_0)\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n-\color{red}{\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}}$$
 
 其中，$\xi$介于$x$与$x_0$之间
 
@@ -262,7 +262,7 @@ $$f(x)=f(x_0)+f'(x_0)(x-x_0)\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n-\color{red}\
 
 设$f(x)$在$x_0$上n阶可导，则对存在$x_0$的一个邻域，对于该邻域内的任意点x，有
 
-$$f(x)=f(x_0)+f'(x_0)(x-x_0)\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n-\color{red}o((x-x_0)^n)$$
+$$f(x)=f(x_0)+f'(x_0)(x-x_0)\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n-\color{red}{o((x-x_0)^n)}$$
 
 :::tip
 此公式仅使用于点$x=x_0$及其邻域，常用于研究点$x=x_0$处的某些结论，
@@ -293,8 +293,8 @@ $$\begin{aligned}
     & \int \cos xdx=\sin x+C\\
     & \int \tan x dx=-\ln|\cos x|+C\\
     & \int\cot xdx=\ln|\sin x|+C\\\\
-    & \int\frac{dx}{\cos x}=\int\sec xdx=\ln|\sec x+\tan x|+C\\
-    & \int\frac{dx}{\sin x}=\int \csc xdx=\ln|\csc x-\cot x|+C\\\\
+    & \int\sec xdx=\ln|\sec x+\tan x|+C\\
+    & \int\csc xdx=\ln|\csc x-\cot x|+C\\\\
     & \int \sec^2xdx=\tan x+C\\
     & \int \csc^2xdx=-\cot x+C\\\\
     & \int\sec x\tan xdx=\sec x+C\\
@@ -346,9 +346,9 @@ $$\int uv^{(4)}dx=uv^{(3)}-u'v''+u''v'-u^{(3)}v+\int u^{(4)}vdx$$
 
 可以写成如下表格：
 
-|u的各阶导数| $\color{red}u_+$ | $\color{blue}u'_-$ | $\color{red}u''_+$ | $\color{blue}u^{(3)}_-$ | $\color{purple}u^{(4)}_+$ |
+|u的各阶导数| $\color{red}{u_+}$ | $\color{blue}{u'_-}$ | $\color{red}{u''_+}$ | $\color{blue}{u^{(3)}_-}$ | $\color{purple}{u^{(4)}_+}$ |
 |---|---|---|---|---|---|
-| **v的各阶原函数** | $v^{(4)}$ | $\color{red}v^{(3)}$ | $\color{blue}v''$ | $\color{red}v'$ | $\color{blue}v$ |
+| **v的各阶原函数** | $v^{(4)}$ | $\color{red}{v^{(3)}}$ | $\color{blue}{v''}$ | $\color{red}{v'}$ | $\color{blue}{v}$ |
 
 :::tip
 计算方法：从左上角开始，斜向同色相乘，红色加，蓝色减，直到最后一项，最后一列相乘，上一个加就是减，上一个减就是加
@@ -378,22 +378,32 @@ $$\int e^{ax}\cos bxdx=\frac{\begin{vmatrix}
 $$\begin{aligned}
     &(\frac π2)\int_0^{\frac π2}\sin^nx=\int_0^{\frac π2}\cos^nxdx=\begin{cases}
     \frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 23·1, &\text{n为大于1的奇数(点火失败)}\\\\
-    \frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2， &\text{n为正偶数(点火成功)}
+    \frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2, &\text{n为正偶数(点火成功)}
 \end{cases}\\\\
 &(π)\int_0^π\sin^nxdx=\begin{cases}
     2·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 23·1, &\text{n为大于1的奇数(点火失败)}\\\\
-    2·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2， &\text{n为正偶数(点火成功)}
+    2·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2, &\text{n为正偶数(点火成功)}
 \end{cases}\\\\
 &(π)\int_0^π\cos^nxdx=\begin{cases}
     0, &\text{n为正奇数(点火失败)}\\\\
-    2·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2， &\text{n为正偶数(点火成功)}
+    2·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2, &\text{n为正偶数(点火成功)}
 \end{cases}\\\\
 
 &(2π)\int_0^{2π}\cos^nxdx=\int_0^{2π}\sin^nxdx\begin{cases}
     0, &\text{n为正奇数(点火失败)}\\\\
-    4·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2， &\text{n为正偶数(点火成功)}
+    4·\frac{n-1}{n}·\frac{n-3}{n-2}·\cdots·\frac 12·\frac π2, &\text{n为正偶数(点火成功)}
 \end{cases}
 \end{aligned}
 $$
+
+### 特殊积分
+
+$$\int_0^{+\infty}|\sin x|dx=\sum_{n=0}^{\infty}\left|\int_{nπ}^{(n+1)π}\sin xdx\right |$$
+
+
+
+
+
+
 
 

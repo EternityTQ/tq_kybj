@@ -84,6 +84,12 @@ export default sidebar({
         prefix: "c11/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第12讲 一元积分学物理应用",
+        icon: "laptop-code",
+        prefix: "c12/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
