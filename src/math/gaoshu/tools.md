@@ -316,7 +316,8 @@ $$\begin{aligned}
     & \int\frac{1}{1+\sin x}dx=\tan x-\sec x+C\\
     & \int\frac{1}{1+\cos x}dx=-\cot x-\csc x+C\\\\
     & \int\frac{x^2}{1+x^2}dx=x-\arctan x+C\\\\
-    & \int\frac{x^2}{1+x}dx=x-\frac 12x^2+\ln|1+x|+C
+    & \int\frac{x^2}{1+x}dx=x-\frac 12x^2+\ln|1+x|+C\\\\
+    & \int\ln xdx=x\ln x-1+C
 \end{aligned}$$
 
 ### 常见凑微分公式
