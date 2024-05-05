@@ -52,6 +52,26 @@ $$\sin x=\frac{2t}{1+t^2},\cos x=\frac{1-t^2}{1+t^2}$$
 
 
 ## 第一讲 函数极限与连续
+### 重要极限
+
+$$\lim_{x\to 0}\frac{\sin x}{x}=1$$
+
+$$\lim_{x\to \infty}(1+\frac{1}{x})^x=e$$
+
+上式可以将x等价看成狗，只要化成这种形式就好了
+
+例子：
+
+$$
+\begin{aligned}
+    &\lim_{x\to\infty}(\frac{x+2}{x-1})^x\\\\
+    =&\lim_{x\to\infty}(1+\frac{3}{x-1})^{\frac{x-1}{3}·\frac{3x}{x-1}}\\\\
+    =&e^{\lim\limits_{x\to\infty}\frac{3x}{x-1}}\\\\
+    =&e^3
+\end{aligned}$$
+
+
+
 ### 常见等价无穷小量
 注意：均为$x\to 0$
 
