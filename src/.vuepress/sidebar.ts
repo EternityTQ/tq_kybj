@@ -90,6 +90,12 @@ export default sidebar({
         prefix: "c12/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第13讲 多元函数微分学",
+        icon: "laptop-code",
+        prefix: "c13/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
