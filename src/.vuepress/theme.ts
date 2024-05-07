@@ -68,6 +68,7 @@ export default hopeTheme({
       demo: true,
       figure: true,
       imgLazyload: true,
+      markmap: true,
       imgSize: true,
       katex: {
         colorIsTextColor: true,
