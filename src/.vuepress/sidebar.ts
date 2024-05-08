@@ -248,6 +248,12 @@ export default sidebar({
         prefix: "c2/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第三章 存储系统",
+        icon: "laptop-code",
+        prefix: "c3/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
