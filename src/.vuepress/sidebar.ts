@@ -131,26 +131,7 @@ export default sidebar({
     children: "structure",
     collapsible: true,
   
-  },{      
-        text: "单词方法论",
-        icon: "laptop-code",
-        prefix: "Methodology/",
-        children: "structure",
-        collapsible: true,
-      
-    },{     
-      text: "每日核心词",
-      icon: "book",
-      prefix: "daily_words/",
-      children: "structure",
-      collapsible: true,
-  },{
-    text: "句句真研",
-    icon: "book",
-    prefix: "Sentences/",
-    children: "structure",
-    collapsible: true,
-},
+  }
   ],
   "/408/": [
     {
