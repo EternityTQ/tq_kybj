@@ -61,19 +61,19 @@ export default sidebar({
         children: "structure",
         collapsible: true,
       },{
-        text: "第8讲 一元积分学的概念",
+        text: "第8讲 一元积分的概念",
         icon: "laptop-code",
         prefix: "c08/",
         children: "structure",
         collapsible: true,
       },{
-        text: "第9讲 一元积分学的计算",
+        text: "第9讲 一元积分的计算",
         icon: "laptop-code",
         prefix: "c09/",
         children: "structure",
         collapsible: true,
       },{
-        text: "第10讲 一元积分学几何应用",
+        text: "第10讲 一元积分几何应用",
         icon: "laptop-code",
         prefix: "c10/",
         children: "structure",
@@ -85,7 +85,7 @@ export default sidebar({
         children: "structure",
         collapsible: true,
       },{
-        text: "第12讲 一元积分学物理应用",
+        text: "第12讲 一元积分物理应用",
         icon: "laptop-code",
         prefix: "c12/",
         children: "structure",
