@@ -102,6 +102,12 @@ export default sidebar({
         prefix: "c14/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第15讲 微分方程",
+        icon: "laptop-code",
+        prefix: "c15/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,

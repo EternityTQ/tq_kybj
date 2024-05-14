@@ -44,6 +44,14 @@ $$\begin{aligned}
     & \cot\frac{\alpha}{2}=\frac{\sin\alpha}{1-\cos\alpha}=\frac{1+\cos\alpha}{\sin\alpha}=\pm\sqrt{\frac{1+\cos\alpha}{1-\cos\alpha}}
 \end{aligned}$$
 
+
+### 因式分解
+
+$$\begin{aligned}
+    & (a\pm b)^3=a^3\pm 3a^2b + 3ab^2 \pm b^3
+    & a^3 \pm b^3 = (a\pm b)(a^2\mp ab+b^2)
+\end{aligned}$$
+
 ### 万能公式
 
 若$t=\tan\frac x2$，则
