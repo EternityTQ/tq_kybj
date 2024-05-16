@@ -1,7 +1,8 @@
-    ---
+---
 title: 公式合集
 icon: screwdriver-wrench
 ---
+
 ## 第零讲 基础公式
 ### 非常诡异的结论
 
