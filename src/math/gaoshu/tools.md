@@ -1,4 +1,4 @@
----
+    ---
 title: 公式合集
 icon: screwdriver-wrench
 ---
@@ -310,7 +310,7 @@ $$\int_a^bf(x)dx=\lim_{n\to\infty}\sum_{i=1}^nf(a+\frac{b-a}{b}i)\frac{b-a}{n}$$
 
 若取$a=0,b=1$，则得出来的形式更通用更简单：
 
-$$\color{red}{}\int_0^1f(x)dx=\lim_{n\to\infty}\sum_{i=1}^nf(\frac in)\frac 1n$$
+$$\color{red}{\int_0^1f(x)dx}=\lim_{n\to\infty}\sum_{i=1}^nf(\frac in)\frac 1n$$
 
 ### 8.2 P积分
 $$\begin{aligned}
