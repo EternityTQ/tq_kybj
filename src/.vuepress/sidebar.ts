@@ -247,6 +247,12 @@ export default sidebar({
         prefix: "c3/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第四章 指令系统",
+        icon: "laptop-code",
+        prefix: "c4/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,

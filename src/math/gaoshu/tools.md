@@ -18,6 +18,8 @@ $$e^x>x+1$$
 
 $$x-1>\ln x$$
 
+$$ab\leq\frac 12(a^2+b^2)$$
+
 ### 和差公式
 
 $$\begin{aligned}
