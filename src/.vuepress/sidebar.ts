@@ -108,6 +108,12 @@ export default sidebar({
         prefix: "c15/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第16讲 无穷级数",
+        icon: "laptop-code",
+        prefix: "c16/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
