@@ -204,7 +204,8 @@ $$\begin{aligned}
 & [\ln(x+\sqrt{x^2+1})]'=\frac{1}{\sqrt{x^2+1}} \\
 & [\ln(x+\sqrt{x^2+a^2})]'=\frac{1}{\sqrt{x^2+a^2}} \\
 & [\ln(x+\sqrt{x^2-1})]'=\frac{1}{\sqrt{x^2-1}}\\\\
-& (\sin x\cos x)'=\cos 2x
+& (\sin x\cos x)'=\cos 2x\\\\
+$(\arctan\frac{1+x}{1-x})'=\frac{1}{1+x^2}
 \end{aligned}$$
 
 ### 4.2 常用高阶导数
