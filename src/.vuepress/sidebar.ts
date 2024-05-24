@@ -259,6 +259,12 @@ export default sidebar({
         prefix: "c4/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第五章 中央处理器",
+        icon: "laptop-code",
+        prefix: "c5/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
