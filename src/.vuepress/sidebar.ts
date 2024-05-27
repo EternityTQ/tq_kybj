@@ -114,6 +114,12 @@ export default sidebar({
         prefix: "c16/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第17讲 多元积分预备知识",
+        icon: "laptop-code",
+        prefix: "c17/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
