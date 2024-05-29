@@ -481,7 +481,7 @@ $$
 $$\begin{aligned}
 &\int_0^{+\infty}|\sin x|dx=\sum_{n=0}^{\infty}\left|\int_{nπ}^{(n+1)π}\sin xdx\right |\\\\
 &\int_{-a}^af(x)dx=\int_0^a[f(x)+f(-x)]dx\\\\
-&\int xf(\sin x)dx=\frac \pi2\int f(\sin x)dx
+&\int_0^\pi xf(\sin x)dx=\frac \pi2\int_0^\pi f(\sin x)dx
 \end{aligned}$$
 
 
