@@ -207,7 +207,7 @@ $$\begin{aligned}
 & [\ln(x+\sqrt{x^2+a^2})]'=\frac{1}{\sqrt{x^2+a^2}} \\
 & [\ln(x+\sqrt{x^2-1})]'=\frac{1}{\sqrt{x^2-1}}\\\\
 & (\sin x\cos x)'=\cos 2x\\\\
-$(\arctan\frac{1+x}{1-x})'=\frac{1}{1+x^2}
+& (\arctan\frac{1+x}{1-x})'=\frac{1}{1+x^2}
 \end{aligned}$$
 
 ### 4.2 常用高阶导数
@@ -476,9 +476,11 @@ $$\begin{aligned}
 \end{aligned}
 $$
 
-### 9.6 特殊积分
+### 9.6 积分特殊结论
 
 $$\int_0^{+\infty}|\sin x|dx=\sum_{n=0}^{\infty}\left|\int_{nπ}^{(n+1)π}\sin xdx\right |$$
+
+$$\int_{-a}^af(x)dx=\int_0^a[f(x)+f(-x)]$$
 
 ### 9.7 γ函数
 
