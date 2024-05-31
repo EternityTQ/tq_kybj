@@ -120,6 +120,12 @@ export default sidebar({
         prefix: "c17/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第18讲 多元函数积分学",
+        icon: "laptop-code",
+        prefix: "c18/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
