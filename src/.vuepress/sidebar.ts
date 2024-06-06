@@ -277,6 +277,18 @@ export default sidebar({
         prefix: "c5/",
         children: "structure",
         collapsible: true,
+      },{
+        text: "第六章 总线",
+        icon: "laptop-code",
+        prefix: "c6/",
+        children: "structure",
+        collapsible: true,
+      },{
+        text: "第七章 I/O系统",
+        icon: "laptop-code",
+        prefix: "c7/",
+        children: "structure",
+        collapsible: true,
       },
     ],
       collapsible: true,
