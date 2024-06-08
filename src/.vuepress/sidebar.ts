@@ -167,7 +167,7 @@ export default sidebar({
     {
       text: "数据结构",
       icon: "book",
-      prefix: "sjjg/",
+      prefix: "Data_Structure/",
       children: [
         {
           text: "错题集",
@@ -239,14 +239,20 @@ export default sidebar({
     {
       text: "操作系统",
       icon: "book",
-      prefix: "czzt/",
-      children: "structure",
+      prefix: "Operating_Systems/",
+      children: [{
+        text: "第一章 计算机系统概述",
+        icon: "laptop-code",
+        prefix: "c1/",
+        children: "structure",
+        collapsible: true,
+      }],
       collapsible: true,
     },
     {
       text: "计算机组成原理",
       icon: "book",
-      prefix: "jsjyl/",
+      prefix: "Computer_Organization_and_Architecture/",
       children: [{
         text: "第一章 计算机系统概述",
         icon: "laptop-code",
@@ -296,7 +302,7 @@ export default sidebar({
     {
       text: "计算机网络",
       icon: "book",
-      prefix: "jsjwl/",
+      prefix: "Computer_Network/",
       children: "structure",
       collapsible: true,
     },

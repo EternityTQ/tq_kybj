@@ -42,22 +42,22 @@ export default navbar([
       {
         text: "数据结构",
         icon: "lightbulb",
-        link: "sjjg/",
+        link: "Data_Structure/",
       },
       {
         text: "操作系统",
         icon: "lightbulb",
-        link: "czxt/",
+        link: "Operating_Systems/",
       },
       {
         text: "计算机组成原理",
         icon: "lightbulb",
-        link: "jsjyl/",
+        link: "Computer_Organization_and_Architecture/",
       },
       {
         text: "计算机网络",
         icon: "lightbulb",
-        link: "jsjwl/",
+        link: "Computer_Network/",
       },
     ],
   },
