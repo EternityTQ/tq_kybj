@@ -14,7 +14,7 @@
     "@types/postcss-preset-env": "^8.0.0",
     "@vuepress/bundler-vite": "2.0.0-rc.9",
     "echarts": "^5.5.0",
-    "katex": "^0.16.9",
+    "katex": "^0.16.11",
     "markmap-lib": "^0.16.1",
     "markmap-toolbar": "^0.16.0",
     "markmap-view": "^0.16.0",
