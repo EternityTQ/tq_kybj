@@ -61,6 +61,23 @@ $$\begin{aligned}
 
 $$\sin x=\frac{2t}{1+t^2},\cos x=\frac{1-t^2}{1+t^2}$$
 
+### 升幂公式
+
+$$\begin{aligned}
+& 1-\cos\theta=2\sin^2\frac{\theta}{2} \\\\
+& 1+\cos\theta=2\cos^2\frac{\theta}{2} \\\\ 
+& 1+\sin\theta=(\sin\frac{\theta}{2} + \cos\frac{\theta}{2})^2 \\\\
+& 1-\sin\theta=(\sin\frac{\theta}{2} - \cos\frac{\theta}{2})^2 \\\\
+\end{aligned}
+$$
+
+### 好用的杂七杂八的结论
+
+$$
+\begin{aligned}
+    & \int_{-a}^af(x)dx=\frac 12\int_{-a}^a[f(x)+f(-x)]dx=\int_0^a [f(x)+f(-x)]dx
+\end{align}
+$$
 
 ## 第一讲 函数极限与连续
 ### 重要极限
@@ -71,7 +88,7 @@ $$\lim_{x\to \infty}(1+\frac{1}{x})^x=e$$
 
 上式可以将x等价看成狗，只要化成这种形式就好了
 
-例子：
+:::details 例子：
 
 $$
 \begin{aligned}
@@ -80,6 +97,7 @@ $$
     =&e^{\lim\limits_{x\to\infty}\frac{3x}{x-1}}\\\\
     =&e^3
 \end{aligned}$$
+:::
 
 
 
@@ -88,85 +106,99 @@ $$
 
 基础：
 
-$$\sin x \backsim x $$
-
-$$\tan x \backsim x $$
-
-$$\arcsin x \backsim x $$
-
-$$\arctan x \backsim x $$
-
-$$\ln (1+x) \backsim x$$
-
-$$e^x-1\backsim x$$
-
-$$a^x-1\backsim x\ln a$$
-
-$$1-\cos x\backsim \frac{1}{2}x^2$$
-
-$$(1+x)^a-1 \backsim ax$$
+$$\begin{aligned}
+    & \sin x \sim x \\\\
+    & \tan x \sim x \\\\
+    & \arcsin x \sim x \\\\
+    & \arctan x \sim x \\\\
+    & \ln(1+x) \sim x \\\\
+    & e^x-1 \sim x \\\\
+    & a^x-1 \sim x\ln a \\\\
+    & 1-\cos x \sim \frac{1}{2}x^2 \\\\
+    & (1+x)^a-1 \sim ax
+\end{aligned}$$
 
 由泰勒展开式得到的：
 
-$$x-\ln(1+x)\backsim \frac{1}{2}x^2$$
 
-$$x-\sin x \backsim \frac{x^3}{6}$$
 
-$$\arcsin x - x \backsim \frac{x^3}{6}$$
+$$\begin{aligned}
+    & x-\ln(1+x)\sim \frac{1}{2}x^2 \\\\
 
-$$\tan x - x \backsim \frac{x^3}{3}$$
+    & x-\sin x \sim \frac{x^3}{6} \\\\
 
-$$x-\arctan x \backsim \frac{x^3}{3}$$
+    & \arcsin x - x \sim \frac{x^3}{6} \\\\
+
+    & \tan x - x \sim \frac{x^3}{3} \\\\
+
+    & x-\arctan x \sim \frac{x^3}{3}
+\end{aligned}$$
 
 由其他公式得到的：
 
-$$\ln(x+\sqrt{x^2+1})\backsim x$$
+$$\ln(x+\sqrt{x^2+1})\sim x$$
 
-$$(1+x)^{\frac{1}{x}}-e\backsim -\frac{e}{2}x$$
+$$(1+x)^{\frac{1}{x}}-e\sim -\frac{e}{2}x$$
 
-$$e^x-1-x\backsim \frac{1}{2}x^2$$
+$$e^x-1-x\sim \frac{1}{2}x^2$$
 
-$$1-(\cos x)^a\backsim \frac{1}{2}ax^2$$
+$$1-(\cos x)^a\sim \frac{1}{2}ax^2$$
 
-### 泰勒展开式 (用于计算无穷小)
-$$\sin x=x-\frac{x^3}{3!}+o(x^3)$$
 
-$$\cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}+o(x^4)$$
+### 泰勒展开式合集
 
-$$\arcsin x = x+\frac{x^3}{3!}+o(x^3)$$
-
-$$\tan x = x+\frac{x^3}{3}+o(x^3)$$
-
-$$\arctan x = x-\frac{x^3}{3} + o(x^3)$$
-
-$$\ln (1+x) = x-\frac{x^2}{2} + \frac{x^3}{3} + o(x^3)$$
-
-$$\ln(1-x)=-x-\frac{x^2}{2} - \frac{x^3}{3} + o(x^3)$$
-
-$$e^x = 1+x+\frac{x^2}{2!} + \frac{x^3}{3!}+o(x^3)$$
-
-$$(1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+o(x^2)$$
+$$\begin{aligned}
+    & e^x=\sum_{n=0}^\infty\color{red}{\frac{x^n}{n!}}=1+x+\frac{x^2}{2!}+\cdots+\color{red}{\frac{x^n}{n!}}+\cdots \\\\
+    & a^x=\sum_{n=0}^\infty(\ln a)^n·\frac{x^n}{n!}\\\\
+    & \frac{1}{1+x}=\sum_{n=0}^\infty\color{red}{(-1)^nx^n}=1-x+x^2-x^3+\cdots+\color{red}{(-1)^nx^n}+\cdots \\\\
+    & \frac{1}{1-x}=\sum_{n=0}^\infty\color{red} {x^n}=1+x+x^2+x^3+\cdots+\color{red}{x^n}+\cdots  \\\\
+    & \ln(1+x)=\sum_{n=0}^\infty\color{red}{(-1)^{n-1}\frac{x^n}{n}}=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots+\color{red}{(-1)^{n-1}\frac{x^n}{n}}+\cdots \\\\
+    & \sin x=\sum_{n=0}^\infty\color{red}{(-1)^n\frac{x^{2n+1}}{(2n+1)!}}=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots+\color{red}{(-1)^n\frac{x^{2n+1}}{(2n+1)!}}+\cdots \\\\
+    & \cos x=\sum_{n=0}^\infty\color{red}{(-1)^n\frac{x^{2n}}{(2n)!}}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots+\color{red}{(-1)^n\frac{x^{2n}}{(2n)!}}+\cdots \\\\
+    & (1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\cdots+\color{red}{\frac{a(a-1)\cdots(a-n+1)}{n!}x^n}+\cdots\\\\
+    & \ln(1-x)=-x-\frac{x^2}{2} - \frac{x^3}{3} + o(x^3) \\\\
+    & \arctan x = x-\frac 13 x^3  +\frac 15 x^5 +\cdots =\sum_{n=0}^\infty (-1)^n\frac{x^{2n+1}}{2n+1}\\\\
+    & \arcsin x = x+\frac{x^3}{3!}+ o(x^3)
+\end{aligned}$$
 
 ## 第二讲 数列极限
 
 ### 2.1 常见不等式放缩
-$$\sin x<x<\tan x(0<x<\frac π2)$$
+$$
+\begin{aligned}
+    & \sin x < x < \tan x \quad (0 < x < \frac{\pi}{2}) \\\\
+    & \sin x < x \quad (x > 0) \\\\
+    & \tan x < \frac{4}{\pi}x \\\\
+    & \sin x > \frac{2}{\pi}x \\\\
+    & \arctan x \leq x \leq \arcsin x \quad (0 \leq x \leq 1) \\\\\
+    & e^x \geq x + 1 \\\\
+    & x - 1 \geq \ln x \quad (x > 0) \\\\
+    & \frac{1}{1+x} < \ln \left(1 + \frac{1}{x}\right) < \frac{1}{x} \quad (x > 0) \\\\
+    & \frac{x}{1+x} < \ln(1+x) < x \quad (x > 0)\\\\
+    & \frac{a+b+c}{3}\geq \sqrt[3]{abc} \\\\
+    & \text{若}a+b=A\text{, 则}ab\leq \frac 14 A^2
+\end{aligned}
+$$
 
-$$\sin x<x(x>0)$$
+### 2.2 解非齐次数列递推式
 
-$$\tan x<\frac 4πx$$
+形如$a_n=b+ka_{n-1}$($b$为常数)的数列递推式都可以用这种方式通杀
 
-$$\sin x>\frac 2πx$$
+步骤：
 
-$$\arctan x \leq x \leq \arcsin x (0\leq x \leq 1)$$
+1. 设齐次解为$Ck^r$
+2. 将$a_n$与$a_{n-1}$均设为特解$A$，在原递推式建立方程，求出特解$A$，此时递推式的格式为$Ck^r+A$
+3. 将已知初始值代入，求得$C$
+4. 结果即为递推式
 
-$$e^x\geq x+1$$
+进阶：
 
-$$x-1\geq \ln x(x>0)$$
+若此时非齐次项为$B^nQ_m(n)$，则解非齐次解的过程有少许改变：
 
-$$\frac{1}{1+x}<\ln (1+\frac 1x)< \frac 1x(x>0)$$
+1. 设特解为$P_m(n)·B^n$
+2. 代入原式求解
+3. 求得$A$后，递推式即为$Ck^r+P_m(n)$
 
-$$\frac{x}{1+x}<\ln (1+x)<x(x>0)$$
 
 ## 第三讲 一元函数微分学的概念
 ### 3.1 导数的常用定义形式
@@ -220,17 +252,8 @@ $$\begin{aligned}
     & (\frac{1}{ax+b})^n=(-1)^{n}a^n\frac{n!}{(ax+b)^{n+1}}
 \end{aligned}$$
 
-### 4.3 泰勒展开式 (用于计算高阶导数)
 
-$$\begin{aligned}
-    & e^x=\sum_{n=0}^\infty\color{red}{\frac{x^n}{n!}}=1+x+\frac{x^2}{2!}+\cdots+\color{red}{\frac{x^n}{n!}}+\cdots \\\\
-    & \frac{1}{1+x}=\sum_{n=0}^\infty\color{red}{(-1)^nx^n}=1-x+x^2-x^3+\cdots+\color{red}{(-1)^nx^n}+\cdots \\\\
-    & \frac{1}{1-x}=\sum_{n=0}^\infty\color{red} {x^n}=1+x+x^2+x^3+\cdots+\color{red}{x^n}+\cdots  \\\\
-    & \ln(1+x)=\sum_{n=0}^\infty\color{red}{(-1)^{n-1}\frac{x^n}{n}}=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots+\color{red}{(-1)^{n-1}\frac{x^n}{n}}+\cdots \\\\
-    & \sin x=\sum_{n=0}^\infty\color{red}{(-1)^n\frac{x^{2n+1}}{(2n+1)!}}=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots+\color{red}{(-1)^n\frac{x^{2n+1}}{(2n+1)!}}+\cdots \\\\
-    & \cos x=\sum_{n=0}^\infty\color{red}{(-1)^n\frac{x^{2n}}{(2n)!}}=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots+\color{red}{(-1)^n\frac{x^{2n}}{(2n)!}}+\cdots \\\\
-    & (1+x)^a=1+ax+\frac{a(a-1)}{2!}x^2+\cdots+\color{red}{\frac{a(a-1)\cdots(a-n+1)}{n!}x^n}+\cdots
-\end{aligned}$$
+
 ## 第五讲 一元微分学的几何应用
 
 ### 5.1 极值点与拐点
@@ -252,6 +275,21 @@ $$k=\frac{|y''|}{[1+(y')^2]^{\frac 32}}$$
 曲率半径为：
 
 $$R=\frac 1k = \frac{[1+(y')^2]^{\frac 32}}{|y''|}$$
+
+### 5.3 求渐近线
+
+#### 铅直渐近线
+找无定义点、端点、分段点
+
+#### 水平渐近线
+找左右两端
+
+#### 斜渐近线
+
+1. 求$\lim\limits_{x\to\infty}\frac{f(x)}{x}=a$
+2. 求$b=\lim\limits_{x\to\infty}[f(x)-ax]$
+3. 若都存在，则写渐近线为$y=ax+b$
+
 
 ## 第六讲 一元微分学的公式
 
@@ -349,6 +387,10 @@ $$\begin{aligned}
 \end{cases}
 \end{aligned}$$
 
+:::details 进阶
+
+:::
+
 ## 第九讲 一元函数积分学的计算
 
 ### 9.1 基本积分公式
@@ -387,7 +429,7 @@ $$\begin{aligned}
     & \int \frac{1}{x^2-a^2}dx=\frac{1}{2a}\ln\left|\frac{x-a}{x+a}\right|+C\\
     & \int \frac{1}{a^2-x^2}dx=\frac{1}{2a}\ln\left|\frac{x+a}{x-a}\right|+C\\\\
     & \int\sqrt{a^2-x^2}dx=\frac{a^2}{2}\arcsin\frac xa+\frac x2\sqrt{a^2-x^2}+C(a>|x|\geq 0)\\
-    & \text{↑用换元法代的}\\\\
+    & \int\sqrt{x^2\pm a^2}dx=\frac x2\sqrt{x^2\pm a^2}\pm \frac{a^2}{2}\ln \frac{x+\sqrt{x^2\pm a^2}}{a}\\\\
     & \int\sin^2xdx=\frac x2-\frac{\sin 2x}{4}+C\\
     & \int \cos^2xdx=\frac x2+\frac{\sin 2x}{4}+C\\
     & \int\tan^2xdx=\tan x-x+C(\tan^2x=\sec^2x-1)\\
@@ -620,6 +662,14 @@ $$P=\rho g\int_a^bx[f(x)-h(x)]dx$$
 
 压力微元$dP=\rho gx[f(x)-h(x)]dx$，即图中矩形条受到的压力，x表示水深，$f(x)-h(x)$是矩形条的宽度，dx是矩形条的高度
 
+### 12.4 引力
+
+基础公式：$F=G\frac{M_1M_2}{R^2}$
+
+平铺在数轴上的均匀细棒和质点M之间的引力大小为
+
+$$\int_{-l}^0\frac{Gmμ}{(a-x)^2}dx$$
+
 ## 第十三讲 多元函数微分学
 
 ### 13.1 链式求导法则
@@ -691,7 +741,19 @@ $$\begin{cases}
 \end{cases}$中易解出$z=z(x,y)$，则将其代入$f(x,y,z)$，得$f[x,y,z(x,y)]$，即转化为无条件最值问题
 :::
 
+### 13.5 判断是否可微
 
+若下式成立，则可微：
+
+$$\lim\frac{\Delta z-(\frac{\partial f}{\partial x}\Delta x+\frac{\partial f}{\partial y}\Delta y)}{\sqrt{(\Delta x)^2+(\Delta y)^2}}=0$$
+
+也即：
+
+$$\Delta z-dz=o(\rho)$$
+
+或：
+
+$$\Delta z=A\Delta x+B\Delta y+o(\rho)$$
 
 
 
