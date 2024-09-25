@@ -76,7 +76,7 @@ $$
 $$
 \begin{aligned}
     & \int_{-a}^af(x)dx=\frac 12\int_{-a}^a[f(x)+f(-x)]dx=\int_0^a [f(x)+f(-x)]dx
-\end{align}
+\end{aligned}
 $$
 
 ## 第一讲 函数极限与连续
@@ -755,9 +755,25 @@ $$\Delta z-dz=o(\rho)$$
 
 $$\Delta z=A\Delta x+B\Delta y+o(\rho)$$
 
+## 概率论
 
+### 分布函数
 
+| 分布名 | 表示 | 分布函数 | 概率 | 方差 |
+| :---: | :---: | :---: | :---: | :---: |
+| 0-1分布 | $B(1,p)$ | / | $p$ | $p(1-p)$ |
+| 二项分布 | $B(n,p)$ | $C_n^kp^k(1-p)^{n-k}$ | $np$ | $np(1-p)$ |
+| 泊松分布 | $P(λ)$ | $\frac{\lambda ^k}{k!}e^{-\lambda}$ | $\lambda$ | $λ$ |
+| 几何分布 | $G(p)$ | $(1-p)^{k-1}p$ | $\frac{1}{p}$ | $\frac{1-p}{p^2}$|
+| 多项式分布 | $B(n,p_i)$ | / | $np_i$ | $np_i(1-p_i)$ |
+| 帕斯卡分布 | $B(r,p)$ | / | $\frac rp$ | $\frac{r(1-p)}{p^2}$ |
 
+| 分布名 | 表示 |概率密度 | 分布函数 | 概率 | 方差 |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 均匀分布 | $U(a,b)$ | $\frac{1}{b-a}$ | $\frac{x-a}{b-a}$ | $\frac{a+b}{2}$ | $\frac{(b-a)^2}{12}$ |
+| 指数分布 | $E(\lambda)$ | $λe^{-\lambda x}$ | $1-e^{-\lambda x}$ | $\frac{1}{λ}$ | $\frac{1}{\lambda^2}$ |
+| 正态分布 |$N(μ,\sigma^2)$| $\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-μ)^2}{2\sigma^2}}$ | / | $μ$ | $\sigma^2$
+| Beta分布 | $Be(a,b)$ | $\frac{\Gamma(a+b)}{\Gamma(a)\Gamma(b)}x^{a-1}(1-x)^{b-1}$ | / | $\frac{a}{a+b}$ | $\frac{ab}{(a+b)^2(a+b+1)}$ |
 
 
 
